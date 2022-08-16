@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Pretendard-Thin';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{margin:0; padding:0;}
+ul{list-style: none;}
+a{text-decoration: none; color:#2a2626;}
+
+body{font-family: 'Pretendard-Regular';
+    color:#2a2626;
+background-color: #ebebeb;}
+
+/*배너*/
+.top{margin: 0 auto;
+width: 1320px;
+text-align: center;
+padding-top: 25px;
+padding-bottom: 25px;}
+
+.header_inner{
+    width: 1320px;
+    height: 40px;
+    margin: auto;
+    border-top: #857045 0.5px solid;
+    border-bottom: #857045 0.5px solid;}
+
+.header_inner ul li{float: left;}
+
+.header_inner li a{
+        display: block;
+        padding: 5px 97px;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Pretendard-Regular';
+    color: #24292e;}
+    
+.header_inner li a:hover{
+        color: #89a26c;}
+
+
+
+        .main_banner{margin: 0 auto;
+        text-align: center;
+    padding: 100px 0;}
+
+    /*베너까지*/
+
+    /*이벤트1*/
+.event1{width: 1320px;
+height: 989px;
+margin: 0 auto;
+text-align: center;
+padding-bottom: 150px;}
+    /*이벤트1*/
+
+    /*이벤트2*/
+.event2{width: 990px;
+height: 840px;
+margin: 0 auto;
+padding-bottom: 150px;}
+
+.box1{float: left;
+width: 509px;
+height: 842px;
+margin: 0 auto;
+}
+
+.box2{background: url(./images/bg.png) no-repeat;
+width: 444px;
+height: 349px;
+margin: 0 auto;
+float: right;}
+.box2 h1{padding-left:60px;
+    font-family: 'GmarketSansBold';
+padding-top: 90px;
+padding-bottom: 20px;}
+.box2 p{padding-left: 60px;
+padding-bottom: 10px;
+font-family: 'Pretendard-Regular';
+font-size: 16px;}
+
+
+.box3{background: url(./images/bg2.png) no-repeat;
+    width: 441px;
+    height:443px;
+    /* margin: 0 auto; */
+    margin-top:49px;
+    float: right;
+
+}
+.box3 li{float: left;
+padding: 60px 3px 40px 21px;}
+
+
+.event3{background: url(./images/event3.png) no-repeat;
+width: 1100px;
+height: 500px;
+margin: 0 auto;
+padding-top: 450px;
+padding-left: 60px;}
+.event3 h4{font-size: 25px;
+padding: 10px 0;
+font-family: 'GmarketSansBold';}
+.event3 p{font-size: 23px;
+font-family: 'Pretendard-Regular';
+}
+h4{color: #794e5d;}
+
+    /*푸터*/
+.footer{
+    width:100%; background-color: #D1CAC0;}
+
+.footer_inner{
+    width: 1320px;
+    margin: 0 auto;
+
+    height: 220px;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+.footer_inner li{float: left;
+}
+.f2{
+    padding: 30px 0 20px 0;
+    text-align: center;
+    overflow: hidden;
+/* padding-left: 150px;  */
+}
+.f2>li{float:left;  width:33.3%;}
+
+
+.sns{padding-left:155px; padding-top:10px;
+    box-sizing: border-box;}
+.sns>ul>li{padding:10px;}
+
+/* .f2 li:nth-child(1){padding-right: 100px;}
+.f2 li:nth-child(3){padding: 0px 50px}
+.f2 li:nth-child(4){padding-right: 100px;} */
+
+.f3{
+    width:100%;
+    padding: 10px 0;
+    text-align: center;
+    overflow: hidden;
+  }
+
+.f3 li{width:33.3%;}
+
+/*
+.f3 li:nth-child(2){padding: 0px 110px} */
+/*푸터*/
